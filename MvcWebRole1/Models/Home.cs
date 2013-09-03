@@ -11,9 +11,11 @@ namespace MvcWebRole1.Models
         public string WebConfig { get; set; }
         public string WebRoleConfig { get; set; }
 
+        public string Build { get; set; }
         public Home()
         {
             this.WebConfig = System.Configuration.ConfigurationManager.AppSettings["Setting"];
+            this.Build = System.Configuration.ConfigurationManager.AppSettings["Build"];
             this.Version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(4);
             this.WebRoleConfig = Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.GetConfigurationSettingValue("Environment");
         }

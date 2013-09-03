@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MvcWebRole1Content\" />
+    <Folder Include="Profiles" />
     <Folder Include="WCFServiceWebRole1Content\" />
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +66,9 @@
     <Content Include="WCFServiceWebRole1Content\diagnostics.wadcfg">
       <SubType>Content</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishProfile Include="Profiles\JoeSoftVSDeployStaging.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
