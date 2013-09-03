@@ -1,0 +1,9 @@
+packages
+bin
+obj
+csx
+rcf
+*.suo
+*.user
+*.vspscc
+*/_sgbak/*

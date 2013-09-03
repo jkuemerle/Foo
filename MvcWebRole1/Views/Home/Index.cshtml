@@ -1,0 +1,15 @@
+﻿@model MvcWebRole1.Models.Home 
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Welcome to the JoeSoft Application</h2>
+
+<p>Application Details
+    <table width="100%" border="1">
+        <tr><td>Application Version</td><td>@Model.Version</td></tr>
+        <tr><td>web.config value</td><td>@Model.WebConfig</td></tr>
+        <tr><td>Web Role value</td><td>@Model.WebRoleConfig</td></tr>
+    </table>
+    </p>
+
