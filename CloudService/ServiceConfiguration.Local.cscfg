@@ -4,7 +4,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="Environment" value="Integration"/>
+      <Setting name="Environment" value="Local"/>
     </ConfigurationSettings>
   </Role>
   <Role name="WCFServiceWebRole1">
