@@ -1,16 +1,17 @@
-﻿@model Models.Home 
+@model Models.Home
+
 @{
-    ViewBag.Title = "JoeSoft Cloud Services Application";
+    ViewBag.Title = "JoeSoft Azure Website Application";
 }
 
-<h2>Welcome to the JoeSoft Cloud Services Application</h2>
+<h2>Welcome to the JoeSoft Azure Website</h2>
 
-<p>Application Details
+<p>
+    Application Details
     <table width="100%" border="1">
         <tr><td>Application Version</td><td>@Model.Version</td></tr>
         <tr><td>Application Build Value</td><td>@Model.Build</td></tr>
         <tr><td>web.config value</td><td>@Model.WebConfig</td></tr>
-        <tr><td>Web Role value</td><td>@Model.WebRoleConfig</td></tr>
     </table>
-    </p>
+</p>
 
