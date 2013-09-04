@@ -7,8 +7,6 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CloudService", "CloudServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebRole1", "MvcWebRole1\MvcWebRole1.csproj", "{6B4D229A-2B4C-48FB-9731-25B652F5EC81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{B9A583BB-7650-42DE-A79E-EEECF7CC24D3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{6B4D229A-2B4C-48FB-9731-25B652F5EC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4D229A-2B4C-48FB-9731-25B652F5EC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4D229A-2B4C-48FB-9731-25B652F5EC81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9A583BB-7650-42DE-A79E-EEECF7CC24D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9A583BB-7650-42DE-A79E-EEECF7CC24D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9A583BB-7650-42DE-A79E-EEECF7CC24D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9A583BB-7650-42DE-A79E-EEECF7CC24D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
