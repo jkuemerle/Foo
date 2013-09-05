@@ -5,6 +5,8 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=joesoftvsdeploy;AccountKey=YoS3LujAx8YWDzdRXjcLiUnR9w+XImY1bSYZFwm7MkpaBTFzEDM7aqbC7weTUDAd2DzrIzQ0PTzljXMEWI/Okg==" />
       <Setting name="Environment" value="Integration" />
+      <Setting name="ExecuteDB" value="false"/>
+      <Setting name="DBConn" value="n/a" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

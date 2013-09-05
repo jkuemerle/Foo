@@ -16,6 +16,8 @@
     </Imports>
     <ConfigurationSettings>
       <Setting name="Environment" />
+      <Setting name="ExecuteDB"/>
+      <Setting name="DBConn" />
     </ConfigurationSettings>
   </WebRole>
 </ServiceDefinition>

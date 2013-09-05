@@ -5,6 +5,8 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="Environment" value="Local" />
+      <Setting name="ExecuteDB" value="true"/>
+      <Setting name="DBConn" value="Server=KLAPTOP\SQL_2012;Database=JoeSoft;User Id=joesoft;Password=Password1!;" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
