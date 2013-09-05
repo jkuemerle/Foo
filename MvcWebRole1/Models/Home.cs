@@ -32,13 +32,11 @@ namespace Models
 #endif
             if (executeDB)
             {
-                using (var cn = new System.Data.SqlClient.SqlConnection(conn))
-                {
-                    cn.Open();
-                    var cmd = new System.Data.SqlClient.SqlCommand("SELECT TOP 1 Col1 FROM Items", cn);
-                    this.DatabaseValue = cmd.ExecuteScalar().ToString();
-                    cn.Close();
-                }
+                var cn = new System.Data.SqlClient.SqlConnection(conn);
+                cn.Open();
+                var cmd = new System.Data.SqlClient.SqlCommand("SELECT TOP 1 Col1 FROM Items", cn);
+                this.DatabaseValue = cmd.ExecuteScalar().ToString();
+                cn.Close();
             }
         }
 
